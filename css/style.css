@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CEEDDB;
+}
+/* ---- */
+nav .span{
+    font-size: 50px;
+    font-weight: 900;
+}
+/* slide */
+.slide{
+    margin-bottom: 40px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100vh;
+}
+/* @media only screen and (max-width: 600px) {
+    .carousel-inner{
+        width: 100%;
+    }
+} */
+/* ------- */
+/* card_item */
+.card_main{
+    margin-bottom: 50px;
+}
+.card{
+    text-align: center;
+    border-radius: 15px;
+}
+/* .card:hover{
+    box-shadow: 5px 10px #09608690;
+} */
+.card .icon{
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    height: 580px;
+    font-size: 20px;
+}
+.card-title {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+/* ---- */
+/* our team */
+.ourteam{
+    margin-bottom: 70px;
+}
+.ourteam h5{
+    text-align: center;
+}
+.ourteam .fa-chart-line{
+    width: 40%;
+    margin: auto;
+    padding-top: 2px;
+}
+.ourteam_title p{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ourteam_title .line_2{
+    width: 10%;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.ourteam_title .cal{
+    border-radius: 20px;
+}
+/* --- */
+/* footer */
+.footer{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(11, 142, 147);
+    margin-top: 70px;
+}
